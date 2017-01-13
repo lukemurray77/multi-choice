@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('.wrong').on('click' , function(){
 		$(this).removeClass('wrong answer');
-		$(this).addClass('youChoseWrong');
+		$(this).addClass('youChoseWrong').append('<span class="glyphicon glyphicon-remove youGuessWrong"></span>');
 		//$(this).append('<span class='youGuessWrong'/>');
 
 		$(this).siblings().removeClass('right wrong answer');
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 	$('.right').on('click', function(){
 		$(this).removeClass('right answer');
-		$(this).addClass('youChoseRight');
+		$(this).addClass('youChoseRight').append('<span class="glyphicon glyphicon-ok youGuessRight"></span>');;
 
 		$(this).siblings().removeClass('right wrong answer');
 		$(this).siblings().addClass('not-picked');
