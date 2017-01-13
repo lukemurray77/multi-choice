@@ -1,0 +1,175 @@
+html body {
+	background-color: #F8EEE7;
+}
+
+
+h1 {
+	font-family: 'avenir', 'roboto';
+	text-align: center; 
+	font-size: 50px;
+	margin: 0 auto;
+	color: #49274A;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	letter-spacing: 7px;
+}
+.divider {
+
+	border-top: 5px double #49274A;
+	width: 70%;
+
+}
+
+
+div {
+	border: 2px solid #49274A;
+	border-radius: 15px;
+	width: 50%;
+	margin: 0 auto;
+	background-color: white;
+	padding:30px;
+	margin-bottom: 30px;
+}
+img {
+	margin: 0 auto;
+	border-radius: 15px;
+	height: auto;
+	max-width: 100%;
+
+}
+
+
+div p {
+	font-family: 'Avenir', 'Roboto';
+	font-size: 20px;
+	width: 400px;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #49274A;
+	padding: 20px;
+	text-align: center;
+}
+
+.answer {
+	margin: 0 auto;
+	font-family: 'Avenir', 'Roboto';
+	text-align: center;
+	padding: 7px;
+	margin-top: 2px;
+	margin-right: 30px;
+	border-radius: 10px;
+	list-style-type: none;
+	color: #F8EEE7;
+	background-color: #49274A;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+.answer:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+
+.youChoseWrong {
+	margin: 0 auto;
+	font-family: 'Avenir', 'Roboto';
+	text-align: center;
+	padding: 7px;
+	margin-top: 2px;
+	margin-right: 30px;
+	border-radius: 10px;
+	list-style-type: none;
+	color: #F8EEE7;
+	background-color: #ff0033;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+.youChoseRight {
+	margin: 0 auto;
+	font-family: 'Avenir', 'Roboto';
+	text-align: center;
+	padding: 7px;
+	margin-top: 2px;
+	margin-right: 30px;
+	border-radius: 10px;
+	list-style-type: none;
+	color: #F8EEE7;
+	background-color: #659D32;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+
+.not-picked {
+	margin: 0 auto;
+	font-family: 'Avenir', 'Roboto';
+	text-align: center;
+	padding: 7px;
+	margin-top: 2px;
+	margin-right: 30px;
+	border-radius: 10px;
+	list-style-type: none;
+	color: #F8EEE7;
+	background-color: #49274A;
+	margin-bottom: 8px;
+	font-size: 15px;
+
+}
+
+.score-tracker {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border: 2px solid	white;
+	background: #49274A;
+	width: 200px;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+
+.score-tracker p {
+	color: white;
+	text-align: center;
+	font-family: 'Avenir', 'Roboto';
+	font-size: 25px;
+	width: 100%;
+}
+
+
+.reloadButton {
+	margin: 0 auto;
+	font-family: 'Avenir', 'Roboto';
+	font-size: 35px;
+	text-align: center;
+	padding: 30px;
+}
+.reloaded {
+	background-color: #49274A;
+	border-radius: 20px;
+	color: #F8EEE7;
+	padding: 20px;
+}
+
+.youGuessWrong {
+	float: right;
+	color: #F8EEE7;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
