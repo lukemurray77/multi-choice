@@ -1,7 +1,8 @@
 var score = 0;
 
+
 document.getElementById('whatsTheScore').innerHTML = score;
-document.body.scrollTop = document.documentElement.scrollTop = 0;
+
 
 $(document).ready(function() {
 	$(this).scrollTop(0);
@@ -39,12 +40,16 @@ $(document).ready(function() {
 
 });
 
+/* 
 var reloadButton = document.getElementById('reload')
 
 function reloadPage(){
-	window.location.reload;
+	window.location.reload.scrollTop(0);
 }
 reloadButton.onclick= reloadPage;
+
+*/
+
 
 
 
