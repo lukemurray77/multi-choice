@@ -5,7 +5,6 @@ document.getElementById('whatsTheScore').innerHTML = score;
 
 
 $(document).ready(function() {
-	$(this).scrollTop(0);
 
 	$('.wrong').on('click' , function(){
 		
@@ -36,6 +35,11 @@ $(document).ready(function() {
 		document.getElementById('whatsTheScore').innerHTML = score;
 
 	});
+
+	$('.reloaded').on('click', function(){
+		window.scrollTo(0, 0);
+		window.location.reload();
+	})
 
 
 });
